@@ -1,0 +1,29 @@
+{
+  "name": "swibba",
+  "version": "1.0.0",
+  "description": "SweatsBets build that will actually work",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechSavvyOutdoorsman/Swibba.git"
+  },
+  "author": "Bram Donovan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TechSavvyOutdoorsman/Swibba/issues"
+  },
+  "homepage": "https://github.com/TechSavvyOutdoorsman/Swibba#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
