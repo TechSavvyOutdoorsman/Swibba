@@ -54,7 +54,7 @@ p {
 h1 {
     padding-bottom: 1rem;
     border-bottom: .2rem dashed $primary-color;
-    font-size: 3.5em;
+    font-size: 3.5rem;
     @media(max-width: 450px){
         font-size: 2rem;
     }
@@ -91,9 +91,9 @@ p {
 
 h2 {
     padding-bottom: 1rem;
-    font-size: 3.5em;
+    font-size: 4rem;
     @media(max-width: 450px){
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -184,7 +184,6 @@ header {
     top: 100%;
     right: 0%;
     background: $secondary-color;
-
     clip-path: circle(0px at top right);
     transition: clip-path ease-in-out 700ms;
   /*   display: none; */
@@ -370,12 +369,13 @@ a:focus {
 
 .cta-button {
     button {
-        font-size: 1em;
+        font-size: 2rem;
         color: $neutral;
         background: $primary-color;
         border-radius: 12rem;
         width: 7em;
         height: 2em;
+        margin: auto;
         border: $neutral solid 2px;
         transition: all 0.3s ease 0s;
     }
@@ -388,7 +388,10 @@ a:focus {
 
 .button-2x {
     button{
-        font-size: 2em;
+        padding: 0;
+        margin: 0;
+        width: 9em;
+        height: 3em;
     }  
 }
 
