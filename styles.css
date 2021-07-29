@@ -393,13 +393,6 @@ a:focus {
   transition: all 0.3s ease 0s;
 }
 
-.button-2x button {
-  padding: 0;
-  margin: 0;
-  width: 9em;
-  height: 3em;
-}
-
 .flex-center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
