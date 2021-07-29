@@ -433,15 +433,15 @@ a:focus {
     button{
         transform: scale(2);
     }
-}
+    @media(max-width:450px){
+    button {
+        transform: scale(1.5);
+    }
 
-@media(max-width: 40rem){
-    .button-shrink {
-        button {
-            transform: scale(1.6);
-        }
     }
 }
+
+
 
 .no-margin {
     margin: 0;

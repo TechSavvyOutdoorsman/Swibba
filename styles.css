@@ -450,10 +450,10 @@ a:focus {
           transform: scale(2);
 }
 
-@media (max-width: 40rem) {
-  .button-shrink button {
-    -webkit-transform: scale(1.6);
-            transform: scale(1.6);
+@media (max-width: 450px) {
+  .button-2x button {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
   }
 }
 
