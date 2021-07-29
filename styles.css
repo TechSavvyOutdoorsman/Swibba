@@ -357,8 +357,8 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   color: #940004;
   border-radius: 50%;
   border: solid 1px #940004;
@@ -379,7 +379,7 @@ a:focus {
   color: #fff;
   background: #940004;
   border-radius: 12rem;
-  width: 7em;
+  width: 8em;
   height: 2em;
   margin: auto;
   border: #fff solid 2px;
