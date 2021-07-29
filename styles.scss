@@ -370,6 +370,7 @@ a:focus {
 
 .cta-button {
     button {
+        font-size: 1em;
         color: $neutral;
         background: $primary-color;
         border-radius: 12rem;
@@ -387,14 +388,8 @@ a:focus {
 
 .button-2x {
     button{
-        transform: scale(2);
-    }
-    @media(max-width:450px){
-    button {
-        transform: scale(1.5);
-    }
-
-    }
+        font-size: 2em;
+    }  
 }
 
 .flex-center {
