@@ -41,7 +41,7 @@ h1 {
   font-size: 3.5em;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   h1 {
     font-size: 2rem;
   }
@@ -391,6 +391,18 @@ a:focus {
   transition: all 0.3s ease 0s;
 }
 
+.button-2x button {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+@media (max-width: 450px) {
+  .button-2x button {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+}
+
 .flex-center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -442,18 +454,6 @@ a:focus {
 @media (min-width: 1020px) {
   .extra-top-padding {
     padding-top: 10rem;
-  }
-}
-
-.button-2x button {
-  -webkit-transform: scale(2);
-          transform: scale(2);
-}
-
-@media (max-width: 450px) {
-  .button-2x button {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
   }
 }
 

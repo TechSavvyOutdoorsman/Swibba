@@ -55,7 +55,7 @@ h1 {
     padding-bottom: 1rem;
     border-bottom: .2rem dashed $primary-color;
     font-size: 3.5em;
-    @media(max-width: 400px){
+    @media(max-width: 450px){
         font-size: 2rem;
     }
 
@@ -385,6 +385,18 @@ a:focus {
     }
 }
 
+.button-2x {
+    button{
+        transform: scale(2);
+    }
+    @media(max-width:450px){
+    button {
+        transform: scale(1.5);
+    }
+
+    }
+}
+
 .flex-center {
     justify-content: center; 
     display: flex; 
@@ -429,17 +441,6 @@ a:focus {
     }
 }
 
-.button-2x {
-    button{
-        transform: scale(2);
-    }
-    @media(max-width:450px){
-    button {
-        transform: scale(1.5);
-    }
-
-    }
-}
 
 
 
