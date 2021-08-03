@@ -414,6 +414,12 @@ a:focus {
   color: #fff;
 }
 
+@media (max-width: 80rem) {
+  .text-change {
+    color: #fff;
+  }
+}
+
 .text-bright {
   color: #cc0007;
 }

@@ -404,6 +404,13 @@ a:focus {
 .text-light {
     color: $neutral;
 }
+
+.text-change {
+    @media(max-width: 80rem){
+        color: $neutral;
+    }
+}
+
 .text-bright {
     color: $highlight-color;
 }
