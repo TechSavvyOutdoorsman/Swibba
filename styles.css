@@ -414,12 +414,6 @@ a:focus {
   color: #fff;
 }
 
-@media (max-width: 80rem) {
-  .text-change {
-    color: #fff;
-  }
-}
-
 .text-bright {
   color: #cc0007;
 }
@@ -430,6 +424,12 @@ a:focus {
 
 .small-text {
   font-size: 0.9rem;
+}
+
+@media (max-width: 65rem) {
+  .text-change {
+    color: #fff;
+  }
 }
 
 @media (min-width: 40em) {
@@ -481,6 +481,10 @@ a:focus {
 .padding-top-bottom {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.small-margin {
+  margin-bottom: 1rem;
 }
 
 .split {
@@ -596,7 +600,7 @@ a:focus {
 .bg-crane {
   background-image: url(Assets/BG-Commercial.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: left;
   background-position: fixed;
   max-width: 100%;
 }

@@ -404,13 +404,6 @@ a:focus {
 .text-light {
     color: $neutral;
 }
-
-.text-change {
-    @media(max-width: 80rem){
-        color: $neutral;
-    }
-}
-
 .text-bright {
     color: $highlight-color;
 }
@@ -419,6 +412,12 @@ a:focus {
 }
 .small-text {
     font-size: 0.9rem;
+}
+
+.text-change {
+    @media(max-width: 65rem){
+        color: $neutral;
+    }
 }
 
 @media(min-width: 40em){
@@ -470,6 +469,10 @@ a:focus {
 .padding-top-bottom {
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.small-margin {
+    margin-bottom: 1rem;
 }
 
 
@@ -568,7 +571,7 @@ a:focus {
 .bg-crane {
     background-image: url(Assets/BG-Commercial.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: left;
     background-position: fixed;
     max-width: 100%;
     
